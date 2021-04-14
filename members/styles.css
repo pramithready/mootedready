@@ -1,0 +1,37 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+p.para1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+p.para2 {
+    font: italic  18px/30px Georgia, serif;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
